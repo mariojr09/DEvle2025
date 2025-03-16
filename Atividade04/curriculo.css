@@ -1,0 +1,23 @@
+body{
+  color: #ffffff;
+  background-color: #000000;
+  font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+  text-align: center;
+  color:#ddcf0b;
+}
+h2 {
+  text-align: center;
+  color:#ddcf0b;
+}
+h3 {
+  text-align: center;
+  color:#ddcf0b;
+}
+h3 p{
+  text-align: justify;
+}
+ul {
+  list-style-type: square;
+}

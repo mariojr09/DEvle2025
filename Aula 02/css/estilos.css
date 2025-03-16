@@ -1,0 +1,39 @@
+body{
+  background-color: #6c59da;
+  font-family: 'Times New Roman', Times, serif;
+  max-width: 900px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 40px;
+  float: right;
+}
+
+img {
+  width: 150px;
+  border-radius: 50%;
+  border: 2px solid #dc143c;
+}
+
+h2, h3 {
+  color: #ff0000
+}
+
+article {
+  border: 2px dotted #e40d0d;
+  margin: 10px;
+  padding: 50px;
+}
+
+p {
+  text-align: justify;
+}
+
+footer {
+  text-align: center;
+}
+
+a {
+  color: #e40d0d;
+}
