@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+}
+/* ID usa # e é único no html*/
+#Flexbox1 {
+  /* Formatação do Flexbox */
+   background-color: rgb(10, 224, 224);
+   display:flex;
+   text-align: center;
+   padding: 15;
+   height: 500px;
+
+   /* Propriedades do flexbox */
+   display: flex;
+   flex-direction: row;
+    justify-content: center;
+
+}
+
+
+/* CLASS usa . e pode ser usado várias vezes no html */
+
+.bloco-1{
+  background-color: blue;
+  height: 150px;
+  width: 150px;
+  text-align: center;
+  border-radius: 16px;
+}
+
+
+.bloco-2{
+  background-color: #e91c1c;
+  height: 150px;
+  width: 150px;
+  text-align: center;
+  border-radius: 16px;
+}
+.bloco-3{
+  background-color: #64ee24;
+  height: 150px;
+  width: 150px;
+  text-align: center;
+  border-radius: 16px;
+}
+
+#Flexbox2{
+  /* Formatação do Flexbox */
+   background-color: #5b6948;
+   padding: 15;
+   height: 500px;
+
+   /* Propriedades do flexbox */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    row-gap: 30px;
+    column-gap: 20px;
+
+}
