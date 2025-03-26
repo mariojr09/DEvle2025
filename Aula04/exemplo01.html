@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Javascript</title>
+</head>
+<body>
+  <h1>Hello Javascript</h1>
+
+
+  <script>
+      
+  let nome;
+  let idade = 20;
+  const pi = 3.1415;
+
+  alert("Hello World");
+  confirm("Está gostando de Javascript?");
+  nome = prompt("Qual é o seu nome?");
+  idade = prompt("Qual é a sua idade?");
+  document.write("Olá, " + nome + ", você tem " + idade + " anos.<br>");
+  document.write(`Olá, ${nome}, sua idade é ${idade}.<br>`);
+
+  let nr1 = prompt("Informe o primeiro número");
+  let nr2 = prompt("Informe o segundo número");
+
+
+  let soma;
+  soma = nr1 + nr2;
+
+  document.write(`A soma de ${nr1} e ${nr2} é ${soma}.<br>`);
+
+  //exercicio que receba 3 notas nt1, nt2 e nt3 e calcule a media
+  
+  let nt1 = Number (prompt("Informe a primeira nota:"));
+  let nt2 = Number (prompt("Informe a segunda nota:"));
+  let nt3 = Number (prompt("Informe a terceira nota:"));
+  
+  let media;
+   media = (nt1 + nt2 + nt3) / 3;
+   media = media.toFixed(2);
+  
+  document.write(`Sua media é = ${media}`);
+
+  </script>
+</body>
+</html> 
