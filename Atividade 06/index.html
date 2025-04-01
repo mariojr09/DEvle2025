@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exercicio 06</title>
+</head>
+<body>
+  <h1>Oi pessoal, aqui estão as respostas da atividade 06 / praticas</h1>
+  
+  <script>
+let nome = prompt("Qual é o seu nome?");
+document.write("Olá, " + nome + ", seja bem vindo.<br>");
+
+let temp = prompt("Qual é a temperatura atual?");
+let tempF = ((temp * 1.8) + 32);
+document.write("A temperatura atual em Fahrenheit é: " + tempF + "<br>");
+
+let nr1 = prompt("Informe o primeiro número");
+let nr2 = prompt("Informe o segundo número");
+
+nr1 = Number(nr1);
+nr2 = Number(nr2);
+
+let soma;
+soma = nr1 + nr2;
+document.write("A soma dos dois números é: " + soma + "<br>");
+
+let sub;
+sub = nr1 - nr2;
+document.write("A subtração dos dois números é: " + sub + "<br>");
+
+let mult;
+mult = nr1 * nr2;
+document.write("A multiplicação dos dois números é: " + mult + "<br>");
+
+let div;
+div = nr1 / nr2;
+document.write("A divisão dos dois números é: " + div + "<br>");
+
+let idade = prompt("Qual é a sua idade?");
+idade = Number(idade);
+if (idade >= 18) {
+  document.write("Maior de idade");
+} else {
+  document.write("Menor de idade");
+}
+
+let preco = prompt("Qual é o preco do produto?");
+preco = Number(preco);
+let desconto = prompt("Qual é o desconto do produto?");
+desconto = Number(desconto);
+let total;
+total = (preco - (preco * desconto / 100));
+document.write("O preco do produto com desconto é: " + total + "<br>");
+
+let reais = prompt("Quantos reais vocé tem?");
+reais = Number(reais);
+let dolares;
+dolares = (reais / 5.00);
+document.write("Vocé tem " + dolares + " dolares");
+  </script>
+</body>
+</html>

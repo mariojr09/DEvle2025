@@ -1,0 +1,43 @@
+Aqui são as respostas da parte teórica de 01 a 07 a pratica ta no index.html
+Questão 01
+É uma linguagem de programação que é responsável por entregar interatividade nas paginas web.
+As funções além de entregar interatividade ela também pode ser usada em aplicações mobile, 
+desenvolvimento de jogos e automação.
+
+questão 02
+O var está em desuso e não recomendado teu uso pois é confuso porque tem escopo de função, 
+já o let e const são mais modernos e tem escopo de bloco,
+e a diferença é que const não pode ser reatribuido depois de declarada.
+
+
+questão 03
+É uma caixa de diálogo onde o usuário preenche as informações
+e os dados retorna com um string inserida pelo usuário.
+
+
+questão 04
+O alert() é uma mensagem de alerta ao usuário , onde tem apenas um botão para descarte,
+ ja confirm() como o própio nome diz é para confirmar,já o prompt é uma caixa de diálogo com o usuário.
+
+
+questão 05
+Concatenar as strings significa que é incluir duas ou mais caracteres em uma só linha,
+abaixo tem dois exemplos de + e template literals
+Exemplo de +
+let nome = "Mario";
+let saudacao = "Olá, " + nome + "! Bem-vindo ao mundo do JavaScript.";
+Exemplo de literals template
+let nome = "Mario";
+let saudacao = `Olá, ${nome}! Bem-vindo ao mundo do JavaScript.`;
+
+
+
+questão 06
+Um exemplo prático de transformar um string para número é através do number()
+let stringNumero = "42";
+let numero = Number(stringNumero);
+
+quastão 07
+Ele é usado para formatar um número para um número fixo de casas decimais,
+ tornando-o mais legível e adequado para cálculos financeiros ou exibição de valores numéricos.
+
