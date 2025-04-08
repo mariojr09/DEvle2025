@@ -1,0 +1,26 @@
+Questão 01
+ É uma interface de programação que representa a estrutura do documento HTML como uma árvore de objetos. 
+ Ele permite que o JavaScript acesse, modifique e interaja com os elementos da página web.
+ Com o DOM, podemos criar páginas interativas e dinâmicas, 
+ alterando conteúdo, estilos e respondendo a ações do usuário sem recarregar a página.
+
+ Questão 02
+document.getElementById seleciona um único elemento pelo seu ID. 
+
+document.querySelector retorna o primeiro elemento que corresponde ao seletor CSS passado (pode ser uma classe, tag, id, etc).
+
+Questão 03
+Eventos são ações ou ocorrências que acontecem na página.
+click – quando o usuário clica em um elemento.
+mouseover – quando o ponteiro do mouse passa sobre um elemento.
+keydown – quando o usuário pressiona uma tecla no teclado.
+
+Questão 04
+innerText : define o texto visível de um elemento, ignorando as tags HTML.
+
+innerHtml:  define o conteúdo HTML interno de um elemento, incluindo as tags.
+
+Questão 05
+Podemos acessar o estilo do elemento usando a propriedade .style.
+
+Questão 06
